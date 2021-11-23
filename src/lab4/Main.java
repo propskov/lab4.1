@@ -12,8 +12,11 @@ public class Main {
         flagsSet.flip(10);
         flagsSet.flip(11);
 
+
+
         System.out.println(flagsSet.count());
         System.out.println(flagsSet.toString().substring(0, 45));
+
 
         flagsSet.clear(4);
         flagsSet.clear(8);
